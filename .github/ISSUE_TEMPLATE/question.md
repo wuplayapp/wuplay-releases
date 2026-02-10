@@ -1,6 +1,6 @@
 ---
 name: Question
-description: Ask a question about WuPlay
+about: Ask a question about WuPlay
 labels: ["question"]
 ---
 
