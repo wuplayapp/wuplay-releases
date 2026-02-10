@@ -1,4 +1,6 @@
-# WuPlay
+<p align="center">
+  <img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/logo.png" alt="WuPlay">
+</p>
 
 **A Stremio alternative built for Android TV.**
 
