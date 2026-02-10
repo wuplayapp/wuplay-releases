@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/logo.png" alt="WuPlay">
+  <img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/logo.png" alt="WuPlay">
 </p>
 
 **A Stremio alternative built for Android TV.**
@@ -8,15 +8,15 @@ WuPlay (pronounced woo-play) is a privacy-focused streaming app with multi-devic
 
 ## Install
 
-**[Download latest APK](https://github.com/me-here-now/wuplay-releases/releases/latest/download/wuplay-androidtv.apk)**
+**[Download latest APK](https://github.com/wuplayapp/wuplay-releases/releases/latest/download/wuplay-androidtv.apk)**
 
-Or install the [Downloader](https://play.google.com/store/apps/details?id=com.esaba.downloader) app on your Android TV and enter code 6015315
+Or install the [Downloader](https://play.google.com/store/apps/details?id=com.esaba.downloader) app on your Android TV and enter code 5781040
 
 ## Features
 
 - **Privacy focused** — no account registration, no IP tracking, no sign-up walls
 - **Built-in metadata** — use the built-in metadata provider, or use a third-party add-on
-- **Stremio add-on compatible** — use your favorite Stremio add-ons (see [addon sdk](https://github.com/me-here-now/wuplay-addon-sdk) for details)
+- **Stremio add-on compatible** — use your favorite Stremio add-ons (see [addon sdk](https://github.com/wuplayapp/wuplay-addon-sdk) for details)
 - **Add-ons auto update** — add-ons stay current without manual refresh or reinstall
 - **Full control over catalogs** — show, hide, and reorder catalogs to customize your home and discover screens
 - **Web configurator** — manage add-ons, catalogs, and data from any browser
@@ -35,67 +35,67 @@ Or install the [Downloader](https://play.google.com/store/apps/details?id=com.es
 <table>
   <tr>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/profiles1.png"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/profiles1.png" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/profiles1.png"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/profiles1.png" width="250"></a><br>
       <sub>Who's Watching</sub>
     </td>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/home.png"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/home.png" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/home.png"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/home.png" width="250"></a><br>
       <sub>Home</sub>
     </td>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/discover.png"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/discover.png" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/discover.png"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/discover.png" width="250"></a><br>
       <sub>Discover</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/lists1.png"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/lists1.png" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/lists1.png"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/lists1.png" width="250"></a><br>
       <sub>My Lists</sub>
     </td>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/search.png"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/search.png" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/search.png"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/search.png" width="250"></a><br>
       <sub>Search</sub>
     </td>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/details.png"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/details.png" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/details.png"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/details.png" width="250"></a><br>
       <sub>Details</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/similar.png"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/similar.png" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/similar.png"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/similar.png" width="250"></a><br>
       <sub>Similar Titles</sub>
     </td>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/cast1.png"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/cast1.png" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/cast1.png"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/cast1.png" width="250"></a><br>
       <sub>Cast & Crew</sub>
     </td>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/cast2.png"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/cast2.png" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/cast2.png"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/cast2.png" width="250"></a><br>
       <sub>Person Details</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/lists2.png"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/lists2.png" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/lists2.png"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/lists2.png" width="250"></a><br>
       <sub>Watchlists</sub>
     </td>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/profiles2.png"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/profiles2.png" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/profiles2.png"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/profiles2.png" width="250"></a><br>
       <sub>Add Profile</sub>
     </td>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/profiles3.png"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/profiles3.png" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/profiles3.png"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/profiles3.png" width="250"></a><br>
       <sub>Edit Profile</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/profiles4.png"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/profiles4.png" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/profiles4.png"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/profiles4.png" width="250"></a><br>
       <sub>Profile Set PIN</sub>
     </td>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/settings.png"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/settings.png" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/settings.png"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/settings.png" width="250"></a><br>
       <sub>Settings</sub>
     </td>
     <td></td>
@@ -107,15 +107,15 @@ Or install the [Downloader](https://play.google.com/store/apps/details?id=com.es
 <table>
   <tr>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/configurator1.jpg"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/configurator1.jpg" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/configurator1.jpg"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/configurator1.jpg" width="250"></a><br>
       <sub>Addons</sub>
     </td>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/configurator2.jpg"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/configurator2.jpg" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/configurator2.jpg"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/configurator2.jpg" width="250"></a><br>
       <sub>Catalogs</sub>
     </td>
     <td align="center">
-      <a href="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/configurator3.jpg"><img src="https://raw.githubusercontent.com/me-here-now/wuplay-releases/main/screenshots/configurator3.jpg" width="250"></a><br>
+      <a href="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/configurator3.jpg"><img src="https://raw.githubusercontent.com/wuplayapp/wuplay-releases/main/screenshots/configurator3.jpg" width="250"></a><br>
       <sub>Privacy & Data</sub>
     </td>
   </tr>
@@ -128,4 +128,4 @@ Or install the [Downloader](https://play.google.com/store/apps/details?id=com.es
 
 ## Issues
 
-Found a bug or have a feature request? [Open an issue](https://github.com/me-here-now/wuplay-releases/issues).
+Found a bug or have a feature request? [Open an issue](https://github.com/wuplayapp/wuplay-releases/issues).
