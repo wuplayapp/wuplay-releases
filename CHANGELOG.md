@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.1.2-beta
+
+### Added
+- Support for Android TV 9 (Pie) and above (previously required Android TV 11+)
+
+### Changed
+- Poster rows use skeleton cards as loading indicators and to prevent screen jumping
+
+### Fixed
+- Non-English metadata was displayed as English
+- Cast and crew returned no results
+- Misc focusing system issues
+- Black screen when trying to exit the app with the remote back button
+
 ## v0.1.1-beta
 
 ### Added
