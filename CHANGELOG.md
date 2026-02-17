@@ -1,5 +1,20 @@
 # Changelog
 
+## v0.1.3-beta
+
+### Added
+- Skip forward and skip back buttons on supported remotes
+
+### Changed
+- Minor UI adjustments
+
+### Fixed
+- Pin protection could be bypassed on app resume
+- Several bugs related to non-English subtitles
+- App crash when watching series with a large number of seasons
+- Subtitle selection now persists across stream restarts
+- Episodes and seasons could not be marked as unwatched
+
 ## v0.1.2-beta
 
 ### Added

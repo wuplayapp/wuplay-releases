@@ -123,7 +123,7 @@ Or install the [Downloader](https://play.google.com/store/apps/details?id=com.es
 
 ## Supported Devices
 
-- Android TV 11+ (ARM)
+- Android TV 9+ (ARM)
 - Tested on: NVIDIA Shield, onn 4K Streaming Box
 
 ## Issues
