@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.2.0-beta
+
+### Note: Discord is up at https://discord.gg/EfZCrwwm
+
+### Added
+- Continue watching row now bypasses the detail screen and goes straight to the player which then honors autoplay setting behavior
+- Meta caching for library items to reduce calls to meta addons
+- Clear progress option in episode card long-press context menu
+- Long-press on Play, Resume, and Start Over buttons to display the stream picker even when autoplay is enabled
+- Enhanced support for TMDB addon
+- Localization support for English, Spanish, Portuguese, French, German, Italian, Russian, Dutch, Polish, Turkish, and Hindi — more languages available on request
+
+### Changed
+- Returning to the app after exiting with the back button now skips the "Who's Watching" screen and goes directly to the home screen for the last active profile
+- Refactored home screen catalog loading to improve speed for slow meta addons
+- Creating a new profile now drops you into the home screen instead of the "Who's Watching" screen
+
+### Fixed
+- Accidentally exiting the app when pressing D-pad left
+- HTML-encoded characters not displaying properly
+
 ## v0.1.3-beta
 
 ### Added

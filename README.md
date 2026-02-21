@@ -12,6 +12,10 @@ WuPlay (pronounced woo-play) is a privacy-focused streaming app with multi-devic
 
 Or install the [Downloader](https://play.google.com/store/apps/details?id=com.esaba.downloader) app on your Android TV and enter code 5781040
 
+## Discord
+
+https://discord.gg/EfZCrwwm
+
 ## Features
 
 - **Privacy focused** — no account registration, no IP tracking, no sign-up walls
