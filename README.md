@@ -14,7 +14,7 @@ Or install the [Downloader](https://play.google.com/store/apps/details?id=com.es
 
 ## Discord
 
-https://discord.gg/EfZCrwwm
+https://discord.gg/CwkVahJQb2
 
 ## Features
 

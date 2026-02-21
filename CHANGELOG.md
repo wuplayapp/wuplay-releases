@@ -2,7 +2,7 @@
 
 ## v0.2.0-beta
 
-### Note: Discord is up at https://discord.gg/EfZCrwwm
+### Note: Discord is up at https://discord.gg/CwkVahJQb2
 
 ### Added
 - Continue watching row now bypasses the detail screen and goes straight to the player which then honors autoplay setting behavior
