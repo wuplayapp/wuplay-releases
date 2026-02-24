@@ -1,5 +1,25 @@
 # Changelog
 
+## v0.2.1-beta
+
+### Added
+- Subtitle and Audio track preferred language support for Telugu, Croatian, Serbian and Bosnian languages (user requested)
+- Long-press menu item on episode cards to start over an episode that is currently in progress
+- Ability to change subtitle size and vertical position
+- Long-press menu item on episode cards to manually select a stream when autoplay is enabled
+- Setting to bypass or show the "Who's Watching" screen on app start
+- Default watch list (Favorites) created on new profile creation
+
+### Changed
+- Remote back button out of navigation drawer now directly exits the app instead of dropping into the "Who's Watching" screen
+- Internal scrobbling system changes to more accurately track TV series
+- Restructured parts of the settings screen
+- Refactored portions of the focus system to eliminate occasional focus loss experienced by some users
+
+### Fixed
+- Play progress was being inaccurately created for titles that were never actually played
+- Completed series were still showing in the continue watching row
+
 ## v0.2.0-beta
 
 ### Note: Discord is up at https://discord.gg/CwkVahJQb2
