@@ -1,5 +1,7 @@
 # Changelog
 
+### Note: Discord is up at https://discord.gg/CwkVahJQb2
+
 ## v0.2.1-beta
 
 ### Added
@@ -21,8 +23,6 @@
 - Completed series were still showing in the continue watching row
 
 ## v0.2.0-beta
-
-### Note: Discord is up at https://discord.gg/CwkVahJQb2
 
 ### Added
 - Continue watching row now bypasses the detail screen and goes straight to the player which then honors autoplay setting behavior
