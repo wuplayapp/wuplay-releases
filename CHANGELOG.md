@@ -8,6 +8,7 @@
 - Voice search support for non-Gboard keyboard users
 - Redesigned My Lists screen with a setting to switch back to the original design
 - Frame rate matching — automatically switches the display refresh rate to match video content (configurable in Playback settings)
+- Episode information on continue watching row for series
 
 ### Fixed
 - Titles were updating their last watched timestamp prematurely
