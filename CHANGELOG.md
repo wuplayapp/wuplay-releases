@@ -2,6 +2,16 @@
 
 ### Note: Discord is up at https://discord.gg/CwkVahJQb2
 
+## v0.2.2-beta
+
+### Added
+- Voice search support for non-Gboard keyboard users
+- Redesigned My Lists screen with a setting to switch back to the original design
+- Frame rate matching — automatically switches the display refresh rate to match video content (configurable in Playback settings)
+
+### Fixed
+- Titles were updating their last watched timestamp prematurely
+
 ## v0.2.1-beta
 
 ### Added
