@@ -2,6 +2,22 @@
 
 ### Note: Discord is up at https://discord.gg/CwkVahJQb2
 
+## v0.3.0-beta
+
+### Added
+- Trakt integration for scrobbling, watchlist, continue watching, watch history, and personal lists
+- Ability to display lists, including Trakt lists, on home and discover screens
+
+### Changed
+- Updated portions of the web configurator UI
+- Redesigned the continue watching row
+- Style changes to various parts of the UI
+- Refactored Watchlists to Lists
+- Catalog visibility and order is now managed exclusively in the web configurator
+
+### Fixed
+- "Who's Watching" screen was not being displayed as expected
+
 ## v0.2.2-beta
 
 ### Added
