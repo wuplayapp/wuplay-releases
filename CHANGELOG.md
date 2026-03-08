@@ -2,6 +2,21 @@
 
 ### Note: Discord is up at https://discord.gg/CwkVahJQb2
 
+## v0.3.1-beta
+
+### Added
+- "Ends at" time on the player screen
+
+### Changed
+- Switched from displaying text titles to displaying logos
+- Redesigned details screen
+- Miscellaneous changes to improve the robustness of series progress tracking
+- Poster progress bar now only shows when poster is focused
+
+### Fixed
+- Some streams would fail after aggressive seek forward or seek back
+- Stream fallback during playback now resumes from the current position instead of starting from the beginning
+
 ## v0.3.0-beta
 
 ### Added
