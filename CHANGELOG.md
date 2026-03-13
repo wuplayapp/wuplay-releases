@@ -2,6 +2,21 @@
 
 ### Note: Discord is up at https://discord.gg/CwkVahJQb2
 
+## v0.4.0-beta
+
+### Added
+- Collections — groups related titles together (e.g., Star Wars collection), powered by TMDB
+- Rotten Tomatoes ratings
+
+### Changed
+- Refactored the cast button in the player to provide information about the item being watched in addition to cast
+- Continue watching row now auto-plays the last played stream (enabled by default, can be turned off in settings)
+
+### Fixed
+- External subtitles were not set based on preferred subtitle language
+- Miscellaneous Trakt integration fixes
+- Miscellaneous fixes to increase robustness of playback
+
 ## v0.3.1-beta
 
 ### Added
