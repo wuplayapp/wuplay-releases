@@ -2,6 +2,25 @@
 
 ### Note: Discord is up at https://discord.gg/CwkVahJQb2
 
+## v0.4.1-beta
+
+### Added
+- Device-level setting to specify the maximum bitrate for streams
+- Device-level setting to skip Dolby Vision streams that lack an HDR fallback
+- Device-level setting for stream timeout
+- Remove option added to Continue Watching long-press menu
+- Ability to specify sort order for lists
+- More descriptive error messages on stream playback failure
+- Crash reports are now sent to the backend to help troubleshoot random app crashes
+- Now supports Android SDK version down to 24
+
+### Fixed
+- Home screen crash when a single catalog contained the same item multiple times
+- App crash on the person screen
+- Non-HTTPS (HTTP) streams now supported
+- Single remote back button press during playback no longer exits the player
+- Clearing progress for an episode would mark all episodes in the entire series as unwatched
+
 ## v0.4.0-beta
 
 ### Added
