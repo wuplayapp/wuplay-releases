@@ -2,6 +2,8 @@
 
 ### Note: Discord is up at https://discord.gg/CwkVahJQb2
 
+## v0.4.2-beta
+
 ## v0.4.1-beta
 
 ### Added
