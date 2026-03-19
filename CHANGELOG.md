@@ -4,6 +4,20 @@
 
 ## v0.4.2-beta
 
+### Added
+- Display metadata for similar titles on detail screen
+- Display awards in hero and on detail screen
+
+### Changed
+- Increased memory heap size to prevent out-of-memory crashes
+- Forced subtitles are now shown by default if available
+- Increased robustness of localized metadata
+
+### Fixed
+- App crash on audio track selection in player
+- Broken metadata fetching for anime (Kitsu, MAL) and TVDB catalogs
+- Several crash sites related to the focusing system
+
 ## v0.4.1-beta
 
 ### Added
