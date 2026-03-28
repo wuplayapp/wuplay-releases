@@ -2,6 +2,31 @@
 
 ### Note: Discord is up at https://discord.gg/CwkVahJQb2
 
+## v0.5.0-beta
+
+### Added
+- New Feature: Hubs (streaming services, genres, studios)
+- New Feature: Layout, new way of managing content on home and discover screens
+- New Feature: Native catalogs, no need for catalog addons anymore
+- Automatic subtitle dimming for HDR and Dolby Vision content
+- High contrast subtitle style option
+- Catalog caching to improve catalog loading speed. TTL is adjustable in the layout settings screen
+
+### Changed
+- Catalogs are now part of the new Layouts feature
+- Playback-related aspects of the app (play button, etc.) are no longer visible unless a valid stream addon is detected
+- Increased maximum subtitle offset from 10 seconds to 180 seconds
+- Increased maximum stream timeout from 120 seconds to 300 seconds
+
+### Fixed
+- Support for collection-based catalogs
+- App crash when trying to play certain titles for localized users
+- Certain anime series were not being divided into seasons properly
+- Newly added watch list items did not show in the home screen watch list until navigating away and back
+
+### Deprecated
+- Save search results to list
+
 ## v0.4.2-beta
 
 ### Added
