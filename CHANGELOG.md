@@ -5,7 +5,7 @@
 ## v0.5.1-beta
 
 ### Added
-- Aspect ratio control button in player (remove black bars)
+- Experimental - Aspect ratio control button in player (remove black bars)
 - Recommendations to Trakt sync
 - 13 new streaming services (US, CA, IN)
 - Setting to clean up SDH subtitles
