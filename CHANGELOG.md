@@ -2,6 +2,28 @@
 
 ### Note: Discord is up at https://discord.gg/CwkVahJQb2
 
+## v0.5.1-beta
+
+### Added
+- Aspect ratio control button in player (remove black bars)
+- Recommendations to Trakt sync
+- 13 new streaming services (US, CA, IN)
+- Setting to clean up SDH subtitles
+- Episodes inside the player screen
+- Ability to modify hub items in the layout configurator without having to remove the hub and add it back
+- Number of seasons and series status on the series detail screen
+
+### Changed
+- Minor UI changes to detail screen
+- Episode cards are now infinite scroll — no need to manually switch seasons
+- Increased localization support app-wide
+
+### Fixed
+- App crash when viewing the info screen in the player
+- MDBList catalogs not updating
+- Adding an item to your watchlist from the home screen did not update the watchlist row until navigating away and back
+- Unable to change the default filmography sort order
+
 ## v0.5.0-beta
 
 ### Added
