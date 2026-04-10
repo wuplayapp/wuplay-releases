@@ -6,7 +6,7 @@
 
 ## v0.5.2-beta
 
-## New Features
+### New Features
 - Ratings poster feature (new setting)
 - RTL support app-wide
 - Upcoming schedule row on home screen (new setting)
