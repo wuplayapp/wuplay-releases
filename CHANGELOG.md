@@ -2,6 +2,31 @@
 
 ### Note: Discord is up at https://discord.gg/CwkVahJQb2
 
+## v0.5.2-beta
+
+## New Features
+- Ratings poster feature (new setting)
+- RTL support app-wide
+- Upcoming schedule row on home screen (new setting)
+
+### Added
+- Localization support for Hindi, Tamil, Telugu, Bengali, Marathi, Arabic (RTL), and Hebrew (RTL)
+- Time remaining on the player screen
+- Release date on future release movies on poster card and detail screen (new setting)
+- Profile-scoped language setting
+- Ability to add multiple instances of the same addon
+
+### Changed
+- Updated list indicator and watched indicator on poster cards to use theme color
+- Made refinements to the Trakt recommendations implementation
+- SDH subtitle clean up now handles speaker labels
+- New episodes of currently airing series now show on continue watching row
+- Stream addon results now show in the same order in the stream picker as they do in the web configurator
+
+### Fixed
+- Frame rate matching did not work as expected when resuming a title
+- Crash in the stream picker when many stream addons are installed
+
 ## v0.5.1-beta
 
 ### Added
