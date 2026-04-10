@@ -1,6 +1,8 @@
 # Changelog
 
-### Note: Discord is up at https://discord.gg/CwkVahJQb2
+### Discord https://discord.gg/CwkVahJQb2
+
+### Downloader code 5781040
 
 ## v0.5.2-beta
 
