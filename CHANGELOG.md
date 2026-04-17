@@ -4,6 +4,29 @@
 
 ### Downloader code 5781040
 
+## v0.5.3-beta
+
+### Added
+- Localization for genre hub cards and hub detail screen catalog titles
+- Added support for TV addons (not IPTV)
+- Trakt-style drop show feature that removes a show from the continue watching row and the upcoming schedule row
+- Stream information on the player screen: resolution, Dolby Vision/HDR, audio codec, and avg bitrate
+- New streaming services: AsianCrush, BBC iPlayer, BritBox, Kocowa, OnDemandKorea, Viu, Watcha
+
+### Changed
+- P2P/torrent streams are now filtered from the streams list so they do not appear
+- Upcoming schedule row now shows all series with watch progress instead of only series from lists
+- Back button during playback now exits the player immediately; if the OSD is showing, back hides it instead (matches convention of major streaming apps)
+- RTL progress bars and player controls updated to LTR to match industry conventions
+
+### Fixed
+- Episodes were being marked as watched in WuPlay but not in Trakt
+- Watching a previously watched episode did not save progress
+- Error message could be displayed over top of a video while it is playing
+- Inaccurate scrobble state sent to Trakt when fast forwarding or rewinding while paused
+- Preset catalogs only showing 20 items on the discover screen
+- TMDB id based search catalogs showing stale metadata
+
 ## v0.5.2-beta
 
 ### New Features
