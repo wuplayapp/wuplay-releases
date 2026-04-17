@@ -12,6 +12,7 @@
 - Trakt-style drop show feature that removes a show from the continue watching row and the upcoming schedule row
 - Stream information on the player screen: resolution, Dolby Vision/HDR, audio codec, and avg bitrate
 - New streaming services: AsianCrush, BBC iPlayer, BritBox, Kocowa, OnDemandKorea, Viu, Watcha
+- Added unwatched episodes batch to continue watching cards (new setting)
 
 ### Changed
 - P2P/torrent streams are now filtered from the streams list so they do not appear
