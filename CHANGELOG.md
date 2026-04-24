@@ -4,6 +4,38 @@
 
 ### Downloader code 5781040
 
+## v0.5.4-beta
+
+### New Features
+- Google Home Integration: Nearby devices like Google Nest displays and the Google Home app now show and control what's playing, and Google Home speakers can control playback by voice ("Hey Google, pause")
+
+### Added
+- Option for back button to scroll to first poster/card in row instead of navigation drawer (new setting)
+- Ability to reorder catalogs within hubs
+- New streaming services
+- Setting to control whether newly aired episodes show in continue watching
+- Brazilian Portuguese added to subtitle languages
+- Ability to play random episodes of a series
+- Setting to control the size of landscape cards and poster cards
+
+### Changed
+- All player controls are now dimmed to match subtitles when in HDR mode
+- In-player modals now hide the rest of the player controls on open
+- Player screen now shows logo instead of text title (new setting)
+- Updated Dutch translation
+- Dates are now localized based on the user's language region
+- If you close the app while in the player screen, it is no longer reset to the detail screen when you open it again
+- Updated nav menu item styles for higher visibility
+
+### Fixed
+- Error message was displayed for slow-loading catalogs from third-party addons on the discover screen
+- Long pressing the play button for too long to display the stream picker would automatically select the first stream
+- Metadata would not show for titles with a TMDB ID but no IMDB ID
+- Exiting the app from the nav drawer would cause the nav drawer to be open when you opened the app again
+- Newly aired episodes were jumping to the front of continue watching even if other titles had been watched since the episode aired
+- Android 7 devices could not use the in-app updater
+- Remote volume buttons did not control Bluetooth soundbars and some other audio devices while the app was in the foreground
+
 ## v0.5.3-beta
 
 ### Added
