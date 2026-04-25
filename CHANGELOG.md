@@ -1,6 +1,6 @@
 # Changelog
 
-### Discord https://discord.gg/CwkVahJQb2
+### Discord https://discord.gg/PvZjHVGtE9
 
 ### Downloader code 5781040
 
