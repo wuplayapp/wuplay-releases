@@ -14,7 +14,7 @@ Or install the [Downloader](https://play.google.com/store/apps/details?id=com.es
 
 ## Discord
 
-https://discord.gg/CwkVahJQb2
+https://discord.gg/PvZjHVGtE9
 
 ## Features
 
@@ -127,8 +127,7 @@ https://discord.gg/CwkVahJQb2
 
 ## Supported Devices
 
-- Android TV 9+ (ARM)
-- Tested on: NVIDIA Shield, onn 4K Streaming Box
+- Android TV 7+ (ARM)
 
 ## Issues
 
