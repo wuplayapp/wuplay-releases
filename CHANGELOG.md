@@ -4,6 +4,33 @@
 
 ### Downloader code 5781040
 
+## v0.5.5-beta
+
+### Added
+- New 16:9 launch icon - shoutout @Branding_Brevity on discord (android tv device reboot required to see new version)
+- Setting to enable tunneled playback
+- Setting to show today's airing episode in Continue Watching instead of Upcoming Schedule
+- New subtitle style settings
+- Subtitle style settings in player screen with preview
+- Trakt icon on recommended movies and recommended series catalogs
+- New streaming services
+
+### Changed
+- In Continue Watching and Upcoming Schedule, focusing on an episode now shows the episode information in the hero area instead of the series information (new setting)
+- Consolidated several settings screens into a new Configuration settings screen
+- Continue Watching row now shows episode thumbnails instead of series-level thumbnails (new setting)
+- Show embedded subtitle track names (e.g. "English — Signs / Songs", "English — Dialogue") so multiple same-language tracks are distinguishable in the picker
+- Stream picker now honors line breaks in description
+- Discover screen now shows chips for media types that are not movie or series
+
+### Fixed
+- Videos would start in a paused state on some Android TV devices when frame rate matching is enabled
+- Future episodes with no release date were showing in the upcoming schedule and continue watching
+- Third-party addon catalog pagination getting stuck on discover screen
+- Cleaned up .ass subtitles that were displaying gibberish
+- Movie catalogs were showing on series and series catalogs were showing on movies in the Discover screen
+- Stream timeout setting greater than 45 seconds was not being honored
+
 ## v0.5.4-beta
 
 ### New Features
