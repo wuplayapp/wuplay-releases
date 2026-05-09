@@ -4,6 +4,33 @@
 
 ### Downloader code 5781040
 
+## v0.6.0-beta
+
+### New Features
+- Profile Manager: new web configurator feature for managing multiple profiles from a single interface (new menu tab)
+- Age Restrictions: Set age restrictions per profile in web configurator settings screen (new menu tab)
+
+### Added
+- Sinhala language to preferred subtitle languages
+- Hungarian language localization
+
+### Changed
+- Moved episodes button under the play button on the detail screen
+- Increased localization coverage for app UI elements
+- You can now update your profile display name, avatar, theme color and pin from the web configurator settings screen (new menu tab). 
+- More detailed error messages on stream failover
+
+### Fixed
+- Subtitle color could not be set in RTL language mode
+- Some unsupported streams that previously failed over quickly were getting stuck and causing long delays before failover to next stream
+- Enter button on some third-party remotes was not working 
+- Long press button release could accidentally select first item in context menu for some third-party remotes.
+- More formatting cleanup of .ass subtitles (proper .ass support in future update)
+- Some specialty anime addon catalogs were not showing as expected. 
+- Upcoming schedule card would show the wrong number of days in the count down badge for some time zones. 
+- Switching episodes in player screen did not always honor autoplay first stream setting
+- Some series were not showing episodes on detail screen when using a kitsu id instead of imdb id or tmdb id
+
 ## v0.5.5-beta
 
 ### Added
