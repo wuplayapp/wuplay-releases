@@ -4,6 +4,28 @@
 
 ### Downloader code 5781040
 
+## v0.6.1-beta
+
+### Added
+- New native TMDB catalogs with 10 filters (unlimited custom catalog options)
+- Bulgarian language option for subtitles
+- Ability to filter MDBList, Trakt, and My Lists based catalogs by type (mixed, movies only, series only)
+- Settings for catalog languages and catalog countries to filter native catalogs
+- Saved collections can now be added to home and discover screens
+- New permission in Profile Manager to hide profile key and QR code in Android TV app
+
+### Changed
+- Added filtering to latest release catalogs in Hubs to produce higher quality results
+- When the stream picker is open, D-pad left and right now cycles through the individual addon chips
+- Person page now loads faster for non-age restricted profiles
+
+### Fixed
+- Hero content was rendered on the search screen even if all results were filtered out by age restrictions
+- Some anime seasons were not being divided properly
+- Advancing to the next episode would show the previous episode's subtitles
+- Season 0 episodes no longer show in upcoming schedule row.
+- Upcoming schedule card would show the wrong number of days in the count down badge for some time zones. (hopefully finally fixed)
+
 ## v0.6.0-beta
 
 ### New Features
