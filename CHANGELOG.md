@@ -4,6 +4,35 @@
 
 ### Downloader code 5781040
 
+## v0.6.2-beta
+
+### New Features
+- IntroDB integration: skip intro, recap, outro when available
+
+### Added
+- Subtitle track ID to subtitle picker (if present)
+- Vietnamese language localization. 
+
+### Changed
+- Series level cast and crew now shows directors and producers as well as episode count for all cast and crew (make take up to 7 days to fully propagate, immediate with clear app cache)
+- Switched positions of the random episode button and the trailer button for series on the detail screen
+- Total episodes displayed on detail screen in addition to total seasons
+- Added an original language option to preferred audio language settings
+- Option to show indicators on unfocused posters (new setting)
+- Removed cancel button from next episode popup (use back button instead)
+- Upcoming Schedule now requires at least one fully watched episode for a show to appear (matches trakt Up Next logic)
+- Organized interface settings screen into sections
+
+### Fixed
+- "Coming Soon" was not being displayed on the collection and search screens for unreleased upcoming movies
+- Poster ratings did not show correctly for search results and filmography (person screen)
+- Some third-party addon catalogs were showing as empty
+- Episode cards were not being blurred in player screen episode list (when blurred setting is enabled)
+- Age restrictions: setting max age to young child (0-7) was letting US PG rated movies slip through (users with age restricted profiles should clear app cache, not needed for non age restricted users)
+- Badly behaving addons that mark series incorrectly as movies
+- Some poster images and backdrops were not being updated properly
+- Edge case where a dropped show would later reappear in the upcoming schedule 
+
 ## v0.6.1-beta
 
 ### Added
