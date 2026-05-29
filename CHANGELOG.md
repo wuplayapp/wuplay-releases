@@ -4,6 +4,24 @@
 
 ### Downloader code 5781040
 
+## v0.6.3-beta
+
+### Added
+- Dolby Vision profile 7 to HDR fallback (new setting, enabled by default)
+- Default catalog filters now apply to hubs, presets, mdblist, and trakt native catalogs (set in web config > settings > catalog defaults)
+- Gujarati and Marathi languages to catalog filters
+
+### Changed
+- New trailer implementation that will hopefully fix the random issues some users have reported as well as increase quality and speed
+- Removed Import Data option in web config privacy & data tab (may return in future)
+- Information-based stream cards now show in the stream picker. (ie aioratings, stremshare)
+- Webconfig change: added Settings > Catalog Filters. Global filters, currently only language and country but more will be added
+- Re-designed add/edit addon UI in web config
+- Some anime series now display both relative and absolute episode numbering (ie hunter x hunter, one piece)
+
+### Fixed
+- More anime fixes (damn you one piece)
+
 ## v0.6.2-beta
 
 ### New Features
@@ -22,6 +40,7 @@
 - Removed cancel button from next episode popup (use back button instead)
 - Upcoming Schedule now requires at least one fully watched episode for a show to appear (matches trakt Up Next logic)
 - Organized interface settings screen into sections
+- Option to only show next episode on upcoming schedule instead of all future episodes. (new setting)
 
 ### Fixed
 - "Coming Soon" was not being displayed on the collection and search screens for unreleased upcoming movies
