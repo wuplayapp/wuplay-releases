@@ -8,7 +8,7 @@
 
 ### Added
 - Dolby Vision profile 7 to HDR fallback (new setting, enabled by default)
-- Default catalog filters now apply to hubs, presets, mdblist, and trakt native catalogs (set in web config > settings > catalog defaults)
+- Catalog filters now apply to hubs, presets, mdblist, and trakt native catalogs (set in web config > settings > catalog filters)
 - Gujarati and Marathi languages to catalog filters
 
 ### Changed
