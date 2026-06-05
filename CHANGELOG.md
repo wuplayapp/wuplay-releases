@@ -4,6 +4,30 @@
 
 ### Downloader code 5781040
 
+## v0.6.4-beta
+
+### New Feature
+- Autoplay trailers (new setting, disabled by default)
+
+### Added
+- View Details and View Trailer added to poster long-press menu
+- Ability to change addon names
+- Option to disable stream auto fallback (new setting)
+- Adjustable stream auto fallback delay (new setting)
+- New global catalog filters: digital release only, min vote, min rating (Webconfig > Settings > Catalog Filters)
+
+### Changed
+- Last played stream now tracked on filename instead of result index
+- You can now mark a movie watched/unwatched without first clearing the current watch progress
+
+### Fixed
+- My Lists based rows in Discover screen were showing blank posters.
+- Tunneled playback would get stuck on loading screen
+- Race issue that would cause continue watching items from one profile to appear in another profile on the same device.
+- Keyboard would take a long time to display on search screen when many or slow search addons were installed
+- Playback could get stuck on flashing logo screen when seeking forward/backward
+- Preferred audio language of original language was not always honored when played from continue watching row. 
+
 ## v0.6.3-beta
 
 ### Added
