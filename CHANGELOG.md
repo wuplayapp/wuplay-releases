@@ -1,5 +1,9 @@
 # Changelog
 
+Please consider donating to the project :-)
+
+https://ko-fi.com/wuplaydev
+
 Discord https://discord.gg/PvZjHVGtE9
 
 Downloader code 5781040
