@@ -7,12 +7,23 @@
 ## v0.6.5-beta
 
 ### New Feature
+- Don't Show Again: the ability to hide titles in catalogs app-wide (new long press menu item)
+- Are You Still Watching? (new setting, default 3 episodes)
 
 ### Added
+- Search history
+- Bulk-add addon catalogs to home/discover screens (web config > layout)
+- Bulk-remove catalogs from home/discover screens (web config > layout)
 
 ### Changed
+- Audio track picker now includes technical details
+- Subtitle min. size reduced from 50% to 25%
+- Subtitle max. offset increased from 30% to 95%
 
 ### Fixed
+- Skipping forward/backward in player could trigger some addons to hit rate limits
+- Some addons with valid streams were throwing 403 errors
+
 
 ## v0.6.4-beta
 
