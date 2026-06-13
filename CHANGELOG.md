@@ -1,8 +1,10 @@
 # Changelog
 
-### Discord https://discord.gg/PvZjHVGtE9
+Discord https://discord.gg/PvZjHVGtE9
 
-### Downloader code 5781040
+Downloader code 5781040
+
+GitHub https://github.com/wuplayapp/wuplay-releases
 
 ## v0.6.5-beta
 
