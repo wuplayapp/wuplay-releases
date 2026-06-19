@@ -10,6 +10,22 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.6.6-beta
+
+### Added
+- Español (México) and "Português (Portugal) languages
+- AMC+ to Streaming Services
+
+### Changed
+- Reduced time-to-first-frame when resuming a stream
+- Episode card will show series background when episode background is unavailable
+- Episodes auto load on season chip change instead of having to press enter (detail screen)
+
+### Fixed
+- Some series weren't correctly showing in watch history
+- Poster row scrolling could be laggy on some devices
+- Hub logos sometimes showed as white rectangles
+
 ## v0.6.5-beta
 
 ### New Feature
