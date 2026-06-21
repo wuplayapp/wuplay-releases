@@ -10,6 +10,14 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.6.7-beta
+
+Hotfix release — bug fixes only.
+
+### Fixed
+- Wrong episode playing when advancing to next episode or manually choosing an episode
+- Error message when trying to advance to the next episode
+
 ## v0.6.6-beta
 
 ### Added
