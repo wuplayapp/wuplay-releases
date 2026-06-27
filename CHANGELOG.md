@@ -10,6 +10,25 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.7.0-beta
+
+The headline for this release is the new native search feature. This is the initial release of a major feature so you can expect minor changes over the coming of weeks.
+
+### New Feature
+- Native search, no addons required
+
+### Added
+- New adult titles catalog filter (Web Config > Settings > Catalog Filters > General)
+
+### Changed
+- Web config: Privacy & Data tab moved to Settings
+- UI: Narrower sidebar and less padding. The result is a wider content area.
+
+### Fixed
+- Croatian (and other Serbo-Croatian, Indonesian, and Norwegian) subtitles and audio tracks not being detected or auto-selected when tagged with combined language codes
+- Subtitles button sometimes not displayed in player
+
+
 ## v0.6.7-beta
 
 Hotfix release — bug fixes only.
