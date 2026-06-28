@@ -10,6 +10,21 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.7.1-beta
+
+### New Feature
+
+### Added
+- Long press poster menu on native search screen
+
+### Changed
+- Search history chips no longer auto fetch results, use remote enter instead
+- Polish and refinements to the new native search screen
+
+### Fixed
+- Stream picker addon chips not scrolling properly
+- Several focus system bugs on new native search sceen 
+
 ## v0.7.0-beta
 
 The headline for this release is the new native search feature. This is the initial release of a major feature so you can expect minor changes over the coming of weeks.
