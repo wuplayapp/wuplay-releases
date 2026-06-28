@@ -23,7 +23,7 @@ GitHub https://github.com/wuplayapp/wuplay-releases
 
 ### Fixed
 - Stream picker addon chips not scrolling properly
-- Several focus system bugs on new native search sceen 
+- Several focus system bugs on new native search screen 
 
 ## v0.7.0-beta
 
