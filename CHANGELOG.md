@@ -10,6 +10,31 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.7.2-beta
+
+This update contains some key terminology changes (you'll live, I promise)
+
+### Added
+- Long press on backspace clears entire search query (native search screen)
+- New keyword catalog type. Web Configurator > Layout > Add
+- Include/exclude keywords in TMDB native catalogs
+- Exclude keywords and genres in content filters (formerly catalog filters)
+- "Copy url" drawer option for mdblist and trakt based catalogs in the layout tab
+- Avg runtime to show detail page
+
+### Changed
+- App-wide terminlogy changes: Series > Shows, My Lists > My Stuff, Catalog Filters > Content Filters
+- More polish and refinements to the native search screen
+- Deprecated the filmography min votes setting, uses global content filters min votes instead
+- DV7 to HDR conversion forced when setting is enabled even if device advertises support
+
+### Fixed
+- Another Fire TV bug that prevented users from doing multiple voice searches without navigating away from the search screen then back again 
+- Filmography row edge case bug that caused app crash
+- Edge case where playback would get stuck and required an additional dpad left/right tap to get unstuck
+- Mbps was not displayed in player screen when resuming from cached link
+
+
 ## v0.7.1-beta
 
 ### New Feature
