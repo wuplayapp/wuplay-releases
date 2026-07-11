@@ -10,6 +10,24 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.7.3-beta
+
+### Added
+- New Genres screen
+- New genres: reality and anime
+- Lithuania to preferred subtitle and audio languages
+
+### Changed
+- Modified trakt scrobble flow to reduces api calls to trakt
+- Anime no longer shows in Animation genre
+
+### Fixed
+- No compatible streams error when resuming a stream that has a cached link that is expired or otherwise returns an error
+- FLAC audio tracks are unstable in exoplayer so they are now transcoded
+- Naving to a similar title detail page then using remote back took you all the way back to the top level screen
+- Playing next episode from continue watching was not honoring binge group
+
+
 ## v0.7.2-beta
 
 This update contains some key terminology changes (you'll live, I promise)
