@@ -10,6 +10,27 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.7.4-beta
+
+### Added
+- New Decades screen
+- New Decades hub
+- Ability to manage sidebar items in web configurator
+- Stylized genre hub cards on home screen
+- New streaming services: Binge, SBS On Demand
+
+### Changed
+- Web Config > Layout is now Web Config > Sidebar (you'll see why)
+- Removed anime from all genres except anime
+- Genres screen list and grid now honor existing "Back scrolls to row start" interface setting.
+
+### Fixed
+- Better error reporting for random incompatible stream errors
+- Minor search engine bugs and tuning
+- "Do not show again" on search and genre screens did not immediately hide the title
+- Preferred subtitle lang of pt-BR was not properly using embedded subtitles
+
+
 ## v0.7.3-beta
 
 ### Added
