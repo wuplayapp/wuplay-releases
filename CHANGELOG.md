@@ -10,17 +10,6 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
-## v0.8.0-beta
-
-### New Feature
-
-### Added
-
-### Changed
-
-### Fixed
-
-
 ## v0.7.4-beta
 
 ### Added
