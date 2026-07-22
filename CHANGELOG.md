@@ -10,6 +10,23 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.7.5-beta
+
+This update is mainly UI refinements and performance optimizations
+
+### Added
+- Metadata now shows on grid screens
+
+### Changed
+- Genre hub cards are localized for non-english languages (reverted to previous handling)
+- Grid poster cards now honor poster size setting
+- UI polish and performance optimization
+- Boring backend optimizations
+
+### Fixed
+- Digital release only content filter is now honored on new genres/decades screens
+
+
 ## v0.7.4-beta
 
 ### Added
