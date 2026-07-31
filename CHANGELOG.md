@@ -10,6 +10,32 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.8.0-beta
+
+There are a couple of exciting new features in this release: custom screens and layout options. 
+
+There is also another terminology change. Web config > Sidebar is now Screens. Terminology changes are part of the beta process and will settle down soon.
+
+### New Feature
+- Custom screens (Web Config > Screens)
+- Screen/hub layout choices: poster rows, grid, filter chips
+
+### Added
+- Dedicated hubs tab in web config (custom hubs are coming soon)
+- Estonia language support
+- New setting: confirm dialog on app exit (default is on)
+
+### Changed
+- Terminology change: Sidebar > Screens
+- Discover is no longer part of the default screens on new profile create
+- Subtitle tracks are now sorted by preferred subtitle languages first, app language second, and alpha for the remaining
+
+### Fixed
+- When a shared addon was deleted, it would not fully delete from managed profiles that it has been shared with
+- Subtitle offset +/- controls were reversed
+- Non-English metadata fixes
+
+
 ## v0.7.5-beta
 
 This update is mainly UI refinements and performance optimizations
