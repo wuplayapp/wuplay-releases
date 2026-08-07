@@ -10,6 +10,38 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.8.1-beta
+
+The headline for this release is Custom Hubs. When you add this to the recently released Custom Screens and the existing Native Catalog System, you can now turn Wuplay into pretty much anything you want.
+
+NOTE: Sharing features are coming. This will allow you to show off your custom screens and hubs and share them with the Wuplay community. Start building now so you will be ready when the sharing feature launches.
+
+### New Feature
+- Custom hubs: Web Config > Hubs > Add
+
+### Added
+- New hub: Movie Collections
+- Networks filter to native TMDB catalog filters
+- New native catalog type: Movie Collection (TMDB collection)
+- Support for addons hosted on local network (local IP)
+
+### Changed
+- Dpad right on last column of grid now loops to the next row
+- Watch Next continue watching row on Android TV home (and custom launchers) now shows landscape cards instead of poster cards
+- Movies/Shows/All media type filters no longer auto fire on focus, This prevents you from accidentally changing the media type filter while navigating to the gear icon
+
+### Fixed
+- My Stuff lists were not showing poster images on grid layout
+- Media type filter would reset to All on layout change
+- Selected catalog/hub item not retained on layout change
+- DASH based streams would cause hard app crash
+- Localized poster images from addon catalogs are no longer swapped to TMDB localized posters
+- Title with missing metadata could cause app crash on play button click
+- Filmography not sorted properly when sorted by release date
+- Some live streams were showing error message of container not supported
+- Subtitles on/off flag now set at tv show level instead of episode level so if you turn off subs in one ep, they will be off in other eps for the same show
+
+
 ## v0.8.0-beta
 
 There are a couple of exciting new features in this release: custom screens and layout options. 
