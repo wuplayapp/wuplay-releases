@@ -10,6 +10,25 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.8.2-beta
+
+The headline of this release is Simkl and MDBList integration. These are initial releases and will be refined over the next few updates. You can technically have all 3 providers connected at the same time but my recommendation would be to pick one and stick with it.
+
+### New Feature
+- MDBList integration
+- Simkl integration
+
+### Added
+- New setting: Show subtitles only for foreign audio (AndroidTV > Settings > Playback)
+
+### Changed
+- My Stuff screen can now be customized like any other screen (re-arrange catalogs, layout, etc)
+- Media type filter chips do a better job of hiding catalogs that don't contain any titles matching the selected filter (the way the old discover screen worked)
+
+### Fixed
+- Manifest urls with querystrings now work
+- Unwatch now works for trakt integration (and simkl/mdblist)
+
 ## v0.8.1-beta
 
 The headline for this release is Custom Hubs. When you add this to the recently released Custom Screens and the existing Native Catalog System, you can now turn Wuplay into pretty much anything you want.
