@@ -10,6 +10,36 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.8.3-beta
+
+This update has a little something for everyone. There are no big flashy new features as it mainly focuses on metadata and content discovery. The TVDB implementation is a structural change. There will be bugs. They will be fixed.
+
+### Added
+- Season and episode level cast and crew
+- New setting: Preferred addon for auto-play (playback settings screen)
+- TVDB as provider option for season/episode split (w/override per show)
+- MDBList recommendations
+- Quick settings gear icon to season/episode list on details screen
+- New setting: Dolby Digital Conversion which transcodes non-AC3 multichannel audio to AC3 for increased device compatibility (device settings screen)
+- New subtitle style setting: opacity
+- New subtitle colors: green, gray
+- New preset catalogs: Latest in Theaters (movies), Trending Today (movies/shows/all)
+- New TMDB catalog filter: runtime
+- Mark Episode Watched to continue watching long press menu
+- New general presets: subgenres
+
+### Changed
+- Poster card long-press "Don't Show Again" changed to "Hide Everywhere" with confirmation dialog 
+- Cinemeta general presets have been deprecated
+- Ratings are now updated daily for titles released within the last 2 years
+- Unsupported audio tracks are now transcoded to AC-3 instead of failing
+- Updated preset catalogs: Latest on Digital (formerly New Movies), Latest Shows (formerly New Shows TMDB), Trending This Week (formerly Trending Movies/Shows TMDB)
+- Expanded deeplinking support for third-party launchers
+
+### Fixed
+- Third-party addon catalogs now respect media type filter if they are tagged properly as movie|series
+- Trailers fixed (for now, YT may block again in future)
+
 ## v0.8.2-beta
 
 The headline of this release is Simkl and MDBList integration. These are initial releases and will be refined over the next few updates. You can technically have all 3 providers connected at the same time but my recommendation would be to pick one and stick with it.
