@@ -17,7 +17,7 @@ This update has a little something for everyone. There are no big flashy new fea
 ### Added
 - Season and episode level cast and crew
 - New setting: Preferred addon for auto-play (playback settings screen)
-- TVDB as provider option for season/episode split (w/override per show)
+- TVDB as primary provider for season/episode data (w/override per show)
 - MDBList recommendations
 - Quick settings gear icon to season/episode list on details screen
 - New setting: Dolby Digital Conversion which transcodes non-AC3 multichannel audio to AC3 for increased device compatibility (device settings screen)
