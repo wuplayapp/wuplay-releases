@@ -10,14 +10,6 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
-## v0.9.1-beta
-
-### Added
-
-### Changed
-
-### Fixed
-
 ## v0.9.0-beta
 
 The headline for this release is two-fold. First, community sharing is live (screen and hubs to start). I think this is going to be an awesome feature and I can't wait to see what the community does with it.
@@ -30,7 +22,6 @@ Next is the first round of UI updates. More UI elements will be updated over the
 ### Added
 - Frost UI: first round of changes
 - Recovery email: recover lost profile key (web config > settings > profile)
-- Create a custom hub using a system hub as a starter
 
 ### Changed
 - Term change: Hub cards are now Hub folders
