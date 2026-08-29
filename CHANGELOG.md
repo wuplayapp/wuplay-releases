@@ -22,6 +22,7 @@ Next is the first round of UI updates. More UI elements will be updated over the
 ### Added
 - Frost UI: first round of changes
 - Recovery email: recover lost profile key (web config > settings > profile)
+- Create a custom hub using a system hub as a starter
 
 ### Changed
 - Term change: Hub cards are now Hub folders
