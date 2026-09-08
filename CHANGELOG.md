@@ -10,6 +10,37 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.9.1-beta
+
+This is a really big release with lots of visual changes, so you're either going to love it or hate it. This is the second round of the UI redesign. There will be at least one more, primarily focusing on the player screen. 
+
+### New Feature
+- New details screen (default; gear icon switches back to classic)
+
+### Added
+- Details: full-screen Episodes, Cast & Crew, Similar Titles and Streams views
+- Details: expanded info card with studios, networks, keywords, release dates, budget, revenue, country and language
+- Details: keyword, studio and network chips open a browse screen for that keyword, studio or network
+- Details: Trakt reviews with sort and hide-spoilers options
+- Details: title ratings (Not for me / I like this / Love this!)
+- Details: Quick Settings drawer (episode source, blur unwatched thumbnails, auto-play addon, max bitrate)
+- Details/Player: Redesigned stream picker
+- IMDb rating on each episode and season (refreshed daily)
+- Malayalam language support
+- Frost UI: second round (long-press menu icons, sectioned search settings drawer, glass player error dialog)
+
+### Changed
+- Suggested keywords are age-graded (kids / 13+ / 17+) instead of all-or-nothing
+- Single-catalog hubs: media filter and gear move above the grid; the one-item catalog list is hidden
+- All Movies and All Shows from My Stuff can now be shared in screen/hub
+
+### Fixed
+- Kids profiles no longer get grown-up keyword suggestions
+- Clean SDH left stray punctuation after stripping speaker names (Arabic SDH files)
+- A second media filter/gear band could appear on hub screens
+- Player: pulsing logo no longer shows behind an open modal
+- Grid layout: addon catalogs load more titles as you scroll
+
 ## v0.9.0-beta
 
 The headline for this release is two-fold. First, community sharing is live (screen and hubs to start). I think this is going to be an awesome feature and I can't wait to see what the community does with it.
