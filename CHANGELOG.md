@@ -10,6 +10,43 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.9.2-beta
+
+The headline for this release is Recommended by Wuplay, a personal recommendations catalog built from what you watch and rate. The more titles you rate, the better it gets. The player's audio and subtitle pickers also get a new look, and every supported language is fully translated again.
+
+### New Feature
+- Recommended by Wuplay: personal recommendations (no third-party required)
+
+### Added
+- Good / Bad Recommendation on the long-press menu of Recommended by Wuplay rows (bad picks are removed for good)
+- New My Stuff catalogs: Liked by You, Loved by You
+- Person screen: filter filmography by role (Acting, Directing, Writing and more)
+- Posters of upcoming shows now show the premiere date ("Premieres Today" on the day)
+- New preset catalogs: Upcoming Movies, Upcoming Shows
+- Player: Settings tab in the audio and subtitle pickers (preferred languages, Clean SDH, subtitles only for foreign audio)
+- Profiles: Remove from Device no longer needs the PIN (offered after a wrong PIN)
+
+### Changed
+- Player: Redesigned audio and subtitle pickers, matching the stream picker
+- Focused rows in pickers and drawers are outlined instead of filled, for better readability
+- Episode and season ratings show a simple star instead of the IMDb badge
+- Details: shows that haven't premiered yet show their premiere date and keep the Play button
+- Details: watchlist button uses a bookmark icon
+- Similar Titles: new engine for better matches
+- TMDB catalog filter: Release Status now available for shows
+- Installing the TV app on a phone or tablet now shows a notice instead of an app that won't open
+
+### Fixed
+- Playback failed on some devices whose audio output doesn't support Dolby Digital (now falls back to standard audio)
+- Importing a PIN-protected profile could skip the PIN prompt
+- Episodes watched on Trakt or Simkl could be marked on the wrong episode when TVDB and TMDB numbering differ
+- Stream picker: pressing right on an addon filter could land on the wrong list or row
+- Details: Back from a similar title now returns to the Similar Titles view
+- Newer screens and settings are now translated in every supported language
+- Screen names like Genres now translate on custom screens too
+- Some languages were missing from Android's per-app language setting
+- IMDb ratings now use standard digits in every language
+
 ## v0.9.1-beta
 
 This is a really big release with lots of visual changes, so you're either going to love it or hate it. This is the second round of the UI redesign. There will be at least one more, primarily focusing on the player screen. 
