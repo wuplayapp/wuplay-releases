@@ -10,6 +10,34 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.9.3-beta
+
+The two headlines for this release are:
+1. Increased fluidity while scrolling
+2. Preview thumbnails during fast-forward and rewind (what? no way. he didn't did he? oh yes he did.)
+
+### New Feature
+- Preview thumbnails: see a frame of the video while rewinding or fast-forwarding (experimental, english only for now, new setting, on by default)
+
+### Added
+- Player: Confirm seek with OK. After skipping left or right, playback waits at the new position until you press OK; Back cancels (new setting, off by default, Settings > Interface > Player)
+- The "Can't reach Wuplay servers" screen now runs a network check and sends a diagnostic report, for help with troubleshooting 
+
+### Changed
+- Smooth scrolling: holding left or right glides through a row, and holding up or down glides down poster-row screens
+- The hero area now updates once you settle on a card instead of on every card you pass (the previous method could cause jitter)
+- Episode long-press menu: Streams is now the first item
+- Every number (player clock, Ends at, counts, seasons, ages, slider values) now uses standard digits in every language
+
+### Fixed
+- Upcoming and premiere date badges were a day behind in Europe and other regions east of the Americas
+- Startup could hang and fail to reach Wuplay servers on networks that advertise IPv6 but can't route it
+- Some custom-built Android boxes were wrongly shown the "phone or tablet" notice and couldn't open the app
+- Wuplay home screen could load with nothing focused (first D-pad press jumped somewhere random)
+- Player: holding a seek no longer dims the screen and pulses the logo as if buffering
+- Dialogs left a thin undimmed strip along the edge of the screen on some devices
+- Pulsing logo now appears when changing streams from in-player stream picker
+
 ## v0.9.2-beta
 
 The headline for this release is Recommended by Wuplay, a personal recommendations catalog built from what you watch and rate. The more titles you rate, the better it gets. The player's audio and subtitle pickers also get a new look, and every supported language is fully translated again.
