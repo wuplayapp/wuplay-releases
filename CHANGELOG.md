@@ -45,6 +45,7 @@ The headline for this release is the player. The control row has been redesigned
 - Details: Autoplay Trailers with a delay did nothing on the new details screen
 - Trailer screen flashed white before loading on some devices
 - Newer settings are translated in every supported language
+- Player: choosing Scrub bar as the D-pad Down target no longer locks focus on the scrub bar; a second Down reaches the control row
 
 ## v0.9.3-beta
 
