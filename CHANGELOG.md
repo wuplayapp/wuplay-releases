@@ -10,6 +10,42 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.9.4-beta
+
+The headline for this release is the player. The control row has been redesigned and can now be customized using the new gear icon on the player screen. Trailer now use the official Google-supported way for embedding videos in third-party apps so hopefully they will not randomly break anymore. This also moves us one step closer to Play Store inclusion. 
+
+### New Feature
+- Player Settings inside the player including new settings for customizing the player UI.
+
+### Added
+- Player: Play/Pause button on the control row
+- Player: optional current time, end time and status line (resolution, HDR, audio, bitrate) in the top bar (player > gear icon > Display)
+- Trailers: when a trailer can't play, the reason is shown (age-restricted, owner doesn't allow embedding, removed from YouTube, not available in your country)
+- Continue Watching and Upcoming rows: Quick Settings on the long-press menu for the row's own settings (auto-play, episode thumbnails, unwatched count, eligibility and more)
+- Stream picker: the current stream is tagged "Playing" (in the player) or "Last played" (Details)
+
+### Changed
+- Trailers now play through YouTube's embedded player
+- Player: redesigned control row. Play/Pause, Start Over and Next Episode are round buttons; Subtitles, Audio, Streams, Info, Zoom and Episodes are plain words
+- Player: Start Over is hidden by default (turn it on under Controls)
+- Player: seeking while the controls are hidden shows only the scrub bar instead of the full controls, and the bar glides instead of stepping
+- Player: the timecode pill now appears on every seek, with or without preview thumbnails
+- Player: Audio/Subtitle settings and Subtitle Style panes restyled to match the new settings look
+- Stream picker: addons are listed in your addon order with the preferred auto-play addon first, and the list no longer reorders under you as results arrive
+- Stream picker: addons that don't offer the title's type are no longer listed
+- Details: holding up or down glides through the Streams list
+- Exiting: a "Press Back again to exit" toast replaces the exit confirmation dialog
+- Frost UI: the sidebar takes the glass look of the drawers
+- Frost UI: one focus style across the app (outline and glow) for settings rows, search, filter chips, catalog rails and Details rows
+
+### Fixed
+- Player: a short rewind or fast-forward could stall playback on some devices (seen on boxes passing Dolby Digital through to a receiver)
+- Continue Watching: a newly synced title landing at the front of the row could sit hidden off the left edge with focus stuck on the old first card
+- Player: the scrub bar jumped when the clock gained a digit (9:59 to 10:00)
+- Details: Autoplay Trailers with a delay did nothing on the new details screen
+- Trailer screen flashed white before loading on some devices
+- Newer settings are translated in every supported language
+
 ## v0.9.3-beta
 
 The two headlines for this release are:
