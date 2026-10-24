@@ -26,6 +26,7 @@ The headline for this release is the player. The control row has been redesigned
 
 ### Changed
 - Trailers now play through YouTube's embedded player
+- Preview thumbnails now load from a CDN; app versions before 0.9.4 no longer show them (update to keep them)
 - Player: redesigned control row. Play/Pause, Start Over and Next Episode are round buttons; Subtitles, Audio, Streams, Info, Zoom and Episodes are plain words
 - Player: Start Over is hidden by default (turn it on under Controls)
 - Player: seeking while the controls are hidden shows only the scrub bar instead of the full controls, and the bar glides instead of stepping
