@@ -20,7 +20,7 @@ https://discord.gg/PvZjHVGtE9
 
 - **Privacy focused** — no account registration, no IP tracking, no sign-up walls
 - **Built-in metadata** — use the built-in metadata provider, or use a third-party add-on
-- **Stremio add-on compatible** — use your favorite Stremio add-ons (see [addon sdk](https://github.com/wuplayapp/wuplay-addon-sdk) for details)
+- **Stremio add-on compatible** — use your favorite Stremio add-ons
 - **Add-ons auto update** — add-ons stay current without manual refresh or reinstall
 - **Full control over catalogs** — show, hide, and reorder catalogs to customize your home and discover screens
 - **Web configurator** — manage add-ons, catalogs, and data from any browser
