@@ -10,6 +10,46 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.9.5-beta
+
+This release is mostly about edge case bug fixes and refinements rather than new features.
+
+### New Feature
+- Audio output setting: Passthrough, Dolby Digital 5.1 or Stereo (player > gear icon > Playback)
+- Trailer player setting: play trailers in Wuplay, in the YouTube app, or in Wuplay with the YouTube app as fallback (Settings > Playback)
+
+### Added
+- Player: Audio output replaces the Dolby Digital conversion toggle; it is per device and applies right away. Stereo is for boxes with no surround support that played video with no sound
+- Trailers: the "Trailer unavailable" card offers Open in YouTube when the YouTube app can play it
+- Player: the status line can sit top right (as before), bottom right next to the gear, or be turned off (player > gear icon > Display)
+- Player: the audio picker shows the file's own track name (dub studio, commentary)
+- Player: Zoom is remembered per title and synced across your devices
+- "Don't ask again" on the Drop Show, Remove from Continue Watching and Hide Everywhere confirmations (per profile, synced)
+- Trakt, MDBList and Simkl: watch history is now two-way. Titles marked watched in Wuplay that the provider is missing are pushed to it when you connect and on every sync
+
+### Changed
+- Trakt, MDBList and Simkl: a title on your watchlist leaves it the moment it is marked watched
+- Continue Watching row is hidden when it is empty
+- Details: any D-pad press cancels the autoplay-trailer countdown (was Back only)
+- Details: titles that aren't a known movie or show (live channels for example) no longer show Play Trailer, Cast & Crew, Reviews, Similar Titles or empty info rows
+- Trailers: when a title's trailer is blocked in your country, another one is tried before giving up
+- Preview thumbnails are now generated for titles in every language except Chinese
+
+### Fixed
+- Player: AAC audio tracks that failed with "Unsupported Format (4003)", often on dubbed MKVs, now play through the app's own decoder
+- Player: streams the device reports as above its capabilities (4K HEVC with an unusual level label, for example) are now tried instead of skipped; some "No compatible streams" results came from this
+- Player: after the app sat in the background for a while, every stream could fail with "Decoder failed" until a restart
+- Stream picker: the addon column could render blank on some Android 10 boxes (reported on a Mecool KM9 Pro)
+- Player panes: focused rows no longer turn opaque, and the focus outline on the first row of the addon and season columns is no longer clipped
+- Continue Watching: a show newly added to your library could miss its new episode on air day (with "Today's episode shows in" set to Continue Watching)
+- Trakt, MDBList and Simkl: a title removed from your watchlist on the provider could reappear in Wuplay's Watchlist row and be re-added on the provider
+- Simkl: anime now syncs (watched episodes, plan to watch, Continue Watching)
+- Simkl and MDBList: a title marked watched on the provider's site now shows in Continue Watching as soon as the app opens, not a minute later
+- Trakt: a title could be logged as watched twice (once when you stopped past 80%, again when Wuplay marked it watched)
+- Show details cached on your device (episode lists, air dates) now refresh when they change instead of waiting up to a week
+- Hebrew and Indonesian: catalog titles and descriptions were shown in English
+- Newer settings are translated in every supported language
+
 ## v0.9.4-beta
 
 The headline for this release is the player. The control row has been redesigned and can now be customized using the new gear icon on the player screen. Trailer now use the official Google-supported way for embedding videos in third-party apps so hopefully they will not randomly break anymore. This also moves us one step closer to Play Store inclusion. 
