@@ -10,6 +10,42 @@ Downloader code 5781040
 
 GitHub https://github.com/wuplayapp/wuplay-releases
 
+## v0.9.6-beta
+
+The headline for this release is profiles. Creating a profile is now a guided setup, and your profile and content filters can be changed right on the TV instead of in the web configurator. There are also 360 new avatars to pick from.
+
+### New Feature
+- New profile setup: a step-by-step flow for creating a profile
+- Profile and Content Filters tabs in Settings (were web configurator only)
+- Content advisory on Details and at the start of playback
+
+### Added
+- New profile setup: add-ons, name, avatar, color, content filters, PIN and recovery email in one flow, ending with your profile key and QR code. Nothing is saved until the last step
+- Settings > Profile: display name, avatar, color, PIN and Remove from Device for the current profile. It replaces the Edit Profile screen; the pencil on "Who's Watching" opens it
+- Settings > Profile: add, change or remove your recovery email on the TV
+- Settings > Content Filters: age restriction, include unrated titles, hide erotic content, digital releases only, original languages and genres (more options remain in the web configurator)
+- 360 new avatars in six sets: Cats, Dogs, Critters, Robots and two sets of People
+- 35 profile colors (was 20)
+- Content advisory: where available, Details lists a title's advisories (Mild, Moderate or Severe for Violence, Sexual Content, Language, Alcohol & Drugs) and the player shows them with the rating for a few seconds when playback starts. Turn it off with "Show content advisory" (Settings > Interface, or player > gear icon > Display)
+- Stream picker: Refresh at the end of the addon list fetches the streams again from every addon
+- Convert HDR10+ to HDR10: plays HDR10+ content as plain HDR10, for projectors and TVs that look better without it (new setting, off by default, Settings > Device)
+- Slovak language localization, and Slovak as a preferred audio and subtitle language
+
+### Changed
+- Settings: moving up or down the category list shows that category right away, without pressing OK
+- Player: the remote's Play and Pause media keys pause and resume without bringing up the controls (OK still shows them)
+- Search: movie and show results are shown in your language (were English)
+- Avatar picker: one row per set, shuffled each time it opens
+- Frost UI: the PIN prompt takes the glass look of the other pop-ups
+
+### Fixed
+- Player: older AVI files with MP3 audio that failed with "Unsupported Format (4003)" now play
+- Player: MP4 files with a built-in subtitle track reconnected to the server hundreds of times during playback, which could cause rebuffering
+- Player: playback could sit on the buffering screen with no error after a frame-rate switch with audio passthrough on (seen on a Shield)
+- Player: holding rewind or fast-forward could run to the end of the video when the Skip Intro or Next Episode popup appeared mid-hold
+- Player: some Serbian subtitles showed the wrong characters in place of č, ć, š, ž and đ
+- Details: the episode list crashed on shows that list two episodes under the same number
+
 ## v0.9.5-beta
 
 This release is mostly about edge case bug fixes and refinements rather than new features.
